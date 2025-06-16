@@ -7,6 +7,7 @@ The scripts included in this repo include:
 - Functions for preprocessing the data in the input pipeline for the neural network
 - Definitions of the custom subclasses of keras.Model inspired by the guide [here](https://keras.io/keras_rs/examples/deep_recommender/)
 - Model training and saving
+- A jupyter notebook explaining my choices for data cleaning
 
 There is too much data involved for the files to fit in this repo. The raw data will have to be accessed from data, and the transformed data generated locally using the data cleaning script.
 
