@@ -8,6 +8,6 @@ The scripts included in this repo include:
 - Definitions of the custom subclasses of keras.Model inspired by the guide [here](https://keras.io/keras_rs/examples/deep_recommender/)
 - Model training and saving
 
-This repo also includes the data that I started with (in CSV files) and the transforemd data (as TensorFlow Datasets).
+There is too much data involved for the files to fit in this repo. The raw data will have to be accessed from data, and the transformed data generated locally using the data cleaning script.
 
 The current version of this project is limited by some speed issues inherent to Keras (for example, loading a saved custom model is very slow), and training time.
